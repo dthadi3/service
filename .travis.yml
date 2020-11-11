@@ -2,8 +2,11 @@ language: go
 os:
   - linux
   - osx
+arch:
+  - AMD64
+  - ppc64le
 go:
-  - 1.4
+  - 1.15
   - tip
 sudo: false
 addons:
